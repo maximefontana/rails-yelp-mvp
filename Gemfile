@@ -1,3 +1,5 @@
+# rubocop:disable all
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -35,6 +37,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
+gem 'faker'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass', '~> 5.0.9'
